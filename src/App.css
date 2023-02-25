@@ -1,0 +1,41 @@
+body {
+  background-image: url("../src/img/Rectangle1.png");
+  background-repeat: no-repeat;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+.right {
+  margin-left: 93%;
+}
+.lineText {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #000000;
+  mix-blend-mode: normal;
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-top: 30px;
+}
+
+.lineText:before,
+.lineText:after {
+  content: "";
+  flex: 1 1;
+  border-bottom: 1px solid;
+  margin: auto;
+}
+.lineText:before {
+  margin-right: 10px;
+}
+.lineText:after {
+  margin-left: 10px;
+}
+a {
+  text-decoration: none;
+}
